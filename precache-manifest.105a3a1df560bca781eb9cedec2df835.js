@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cyobeauty/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "65cf96ce33259ee7ec71abd845fefdd9",
+    "revision": "966f0fee9fdf0c81222374e155f32f76",
     "url": "/cyobeauty/index.html"
   }
 ];
