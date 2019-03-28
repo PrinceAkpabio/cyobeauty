@@ -1,15 +1,16 @@
 {
-  "main.css": "/cyobeauty/static/css/main.7f57281e.chunk.css",
-  "main.js": "/cyobeauty/static/js/main.8ca79587.chunk.js",
-  "main.js.map": "/cyobeauty/static/js/main.8ca79587.chunk.js.map",
-  "static/css/1.f683da7f.chunk.css": "/cyobeauty/static/css/1.f683da7f.chunk.css",
-  "static/js/1.dd377157.chunk.js": "/cyobeauty/static/js/1.dd377157.chunk.js",
-  "static/js/1.dd377157.chunk.js.map": "/cyobeauty/static/js/1.dd377157.chunk.js.map",
-  "runtime~main.js": "/cyobeauty/static/js/runtime~main.f4935ecf.js",
-  "runtime~main.js.map": "/cyobeauty/static/js/runtime~main.f4935ecf.js.map",
-  "static/css/main.7f57281e.chunk.css.map": "/cyobeauty/static/css/main.7f57281e.chunk.css.map",
-  "static/css/1.f683da7f.chunk.css.map": "/cyobeauty/static/css/1.f683da7f.chunk.css.map",
+  "main.css": "/cyobeauty/static/css/main.a6399330.chunk.css",
+  "main.js": "/cyobeauty/static/js/main.ec7d9878.chunk.js",
+  "main.js.map": "/cyobeauty/static/js/main.ec7d9878.chunk.js.map",
+  "runtime~main.js": "/cyobeauty/static/js/runtime~main.6c61314c.js",
+  "runtime~main.js.map": "/cyobeauty/static/js/runtime~main.6c61314c.js.map",
+  "static/css/2.ece9db98.chunk.css": "/cyobeauty/static/css/2.ece9db98.chunk.css",
+  "static/js/2.eefc2e1f.chunk.js": "/cyobeauty/static/js/2.eefc2e1f.chunk.js",
+  "static/js/2.eefc2e1f.chunk.js.map": "/cyobeauty/static/js/2.eefc2e1f.chunk.js.map",
   "index.html": "/cyobeauty/index.html",
-  "precache-manifest.f01de56a0dedae9c36f40240416bcb46.js": "/cyobeauty/precache-manifest.f01de56a0dedae9c36f40240416bcb46.js",
-  "service-worker.js": "/cyobeauty/service-worker.js"
+  "precache-manifest.aec35d0b60ba70bedef9053fd8ad0e06.js": "/cyobeauty/precache-manifest.aec35d0b60ba70bedef9053fd8ad0e06.js",
+  "service-worker.js": "/cyobeauty/service-worker.js",
+  "static/css/2.ece9db98.chunk.css.map": "/cyobeauty/static/css/2.ece9db98.chunk.css.map",
+  "static/css/main.a6399330.chunk.css.map": "/cyobeauty/static/css/main.a6399330.chunk.css.map",
+  "static/media/App.css": "/cyobeauty/static/media/salon.8ead27b4.jpg"
 }
