@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cyobeauty/precache-manifest.17bb5a4dd6b6fbc810987fde26650b9d.js"
+  "/cyobeauty/precache-manifest.0aadb3fb9f94658c206fa53b1f5f1159.js"
 );
 
 workbox.clientsClaim();
