@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/cyobeauty/static/js/runtime~main.6c61314c.js"
   },
   {
-    "revision": "377e474378ddf115b0d1",
-    "url": "/cyobeauty/static/js/main.a3714c87.chunk.js"
+    "revision": "18ab272b3e9650cf626c",
+    "url": "/cyobeauty/static/js/main.43d004ab.chunk.js"
   },
   {
     "revision": "f0f04f528c0e0dcc97fe",
     "url": "/cyobeauty/static/js/2.49209ecf.chunk.js"
   },
   {
-    "revision": "377e474378ddf115b0d1",
-    "url": "/cyobeauty/static/css/main.e6d99c32.chunk.css"
+    "revision": "18ab272b3e9650cf626c",
+    "url": "/cyobeauty/static/css/main.b11da765.chunk.css"
   },
   {
     "revision": "f0f04f528c0e0dcc97fe",
     "url": "/cyobeauty/static/css/2.ece9db98.chunk.css"
   },
   {
-    "revision": "2b6286af3fc7157fd90cca688cf86a6d",
+    "revision": "46bf9043c19710ba0fc281f75ef40a4c",
     "url": "/cyobeauty/index.html"
   }
 ];
