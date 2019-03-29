@@ -1,16 +1,16 @@
 {
-  "main.css": "/cyobeauty/static/css/main.a6399330.chunk.css",
-  "main.js": "/cyobeauty/static/js/main.ec7d9878.chunk.js",
-  "main.js.map": "/cyobeauty/static/js/main.ec7d9878.chunk.js.map",
+  "main.css": "/cyobeauty/static/css/main.e6d99c32.chunk.css",
+  "main.js": "/cyobeauty/static/js/main.bcf2ed46.chunk.js",
+  "main.js.map": "/cyobeauty/static/js/main.bcf2ed46.chunk.js.map",
   "runtime~main.js": "/cyobeauty/static/js/runtime~main.6c61314c.js",
   "runtime~main.js.map": "/cyobeauty/static/js/runtime~main.6c61314c.js.map",
   "static/css/2.ece9db98.chunk.css": "/cyobeauty/static/css/2.ece9db98.chunk.css",
-  "static/js/2.eefc2e1f.chunk.js": "/cyobeauty/static/js/2.eefc2e1f.chunk.js",
-  "static/js/2.eefc2e1f.chunk.js.map": "/cyobeauty/static/js/2.eefc2e1f.chunk.js.map",
+  "static/js/2.49209ecf.chunk.js": "/cyobeauty/static/js/2.49209ecf.chunk.js",
+  "static/js/2.49209ecf.chunk.js.map": "/cyobeauty/static/js/2.49209ecf.chunk.js.map",
   "index.html": "/cyobeauty/index.html",
-  "precache-manifest.aec35d0b60ba70bedef9053fd8ad0e06.js": "/cyobeauty/precache-manifest.aec35d0b60ba70bedef9053fd8ad0e06.js",
+  "precache-manifest.17bb5a4dd6b6fbc810987fde26650b9d.js": "/cyobeauty/precache-manifest.17bb5a4dd6b6fbc810987fde26650b9d.js",
   "service-worker.js": "/cyobeauty/service-worker.js",
   "static/css/2.ece9db98.chunk.css.map": "/cyobeauty/static/css/2.ece9db98.chunk.css.map",
-  "static/css/main.a6399330.chunk.css.map": "/cyobeauty/static/css/main.a6399330.chunk.css.map",
+  "static/css/main.e6d99c32.chunk.css.map": "/cyobeauty/static/css/main.e6d99c32.chunk.css.map",
   "static/media/App.css": "/cyobeauty/static/media/salon.8ead27b4.jpg"
 }
