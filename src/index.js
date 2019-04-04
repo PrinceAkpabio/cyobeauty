@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./App.css";
+import "./Styles/App.css";
 import 'animate.css';
+import 'holderjs';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

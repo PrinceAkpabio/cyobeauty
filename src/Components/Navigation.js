@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-class Header extends Component {
+class Navigation extends Component {
   componentDidMount() {
     (function() {
       let scrollPos = window.scrollY;
@@ -35,22 +36,29 @@ class Header extends Component {
       <header>
         <Navbar id="navBar" collapseOnSelect expand="lg" fixed="top">
           <Container>
-            <Navbar.Brand href="#home">CYOBeauty</Navbar.Brand>
+            <Navbar.Brand href="#header">CYOBeauty</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mx-auto">
-                <Nav.Link href="#features" className="p-3">
-                  Services
+                <Nav.Link href="#header" className="p-3 mx-3">
+                  Home
                 </Nav.Link>
-                <Nav.Link href="#pricing" className="p-3">
+                <Nav.Link href="#intro" className="p-3 mx-3">
                   About
                 </Nav.Link>
-                <Nav.Link href="#igFeed" className="p-3">
+                <Nav.Link href="#testimonials" className="p-3 mx-3">
+                  Testimonials
+                </Nav.Link>
+                <Nav.Link href="#services" className="p-3 mx-3">
+                  Services
+                </Nav.Link>
+                <Nav.Link href="#igFeed" className="p-3 mx-3">
                   Portfolio
                 </Nav.Link>
               </Nav>
               <Nav>
-                <Nav.Link href="#deets">
+                <Nav.Link target="_blank" href="https://squareup.com/appointments/book/e6463a96-6afc-4b72-95c1-8ad6befe5544/1BPPJP6VCHYSN/start">
+                  <FontAwesomeIcon title='Schedule an appointment' icon="calendar-alt" size="2x" />
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -61,4 +69,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Navigation;
