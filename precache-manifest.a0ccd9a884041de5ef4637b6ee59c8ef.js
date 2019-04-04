@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cyobeauty/static/media/6.e28cf9b9.jpg"
   },
   {
-    "revision": "79c9c7d1ae820786a666",
+    "revision": "90ba390e8576f3ef5155",
     "url": "/cyobeauty/static/css/main.a870509c.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/cyobeauty/static/media/5.37785725.jpg"
   },
   {
-    "revision": "79c9c7d1ae820786a666",
-    "url": "/cyobeauty/static/js/main.453117c3.chunk.js"
+    "revision": "90ba390e8576f3ef5155",
+    "url": "/cyobeauty/static/js/main.c8cf2cdf.chunk.js"
   },
   {
     "revision": "7300fa0cd895ce0066c09000c67d1999",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/cyobeauty/static/css/2.ece9db98.chunk.css"
   },
   {
-    "revision": "e9014c5fa1d87c56752325cbb1aec27e",
+    "revision": "2f0846f3a99d56bc28b89574d0314b59",
     "url": "/cyobeauty/index.html"
   }
 ];
