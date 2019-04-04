@@ -30,118 +30,125 @@ class Igfeed extends Component {
     return (
       
       <section id="igFeed">
-        <Container className="p-5">
-          <Row>
-            <Col lg={3} md={6} className="py-3">
-              <a href={One} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={One}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Two} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Two}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Three} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Three}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Four} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Four}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Five} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Five}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Six} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Six}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Seven} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Seven}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Eight} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Eight}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Nine} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Nine}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Ten} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Ten}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Eleven} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Eleven}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-            <Col lg={3} md={6} className="py-3">
-              <a href={Twelve} className="gallery-demo">
-                <img
-                  className="img-fluid"
-                  src={Twelve}
-                  alt="Multidimensional Blonde"
-                />
-              </a>
-            </Col>
-          </Row>
-        </Container>
+        <div
+      data-aos="zoom-in-up"
+      data-aos-duration="1600"
+      data-aos-once="true"
+      className="my-auto igFeedSection"
+    >
+          <Container className="p-5">
+            <Row>
+              <Col lg={3} md={6} className="py-3">
+                <a href={One} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={One}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Two} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Two}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Three} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Three}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Four} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Four}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Five} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Five}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Six} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Six}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Seven} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Seven}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Eight} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Eight}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Nine} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Nine}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Ten} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Ten}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Eleven} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Eleven}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+              <Col lg={3} md={6} className="py-3">
+                <a href={Twelve} className="gallery-demo">
+                  <img
+                    className="img-fluid"
+                    src={Twelve}
+                    alt="Multidimensional Blonde"
+                  />
+                </a>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </section>
     );
   }
