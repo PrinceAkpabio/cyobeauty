@@ -175,10 +175,15 @@ p {
   transform: scale(1.1);
 }
 
+#header {
+  position: relative;
+}
+
 .downArrow {
   position: absolute;
-  bottom: 10%;
-  left: 50%;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 1rem;
 }
 
 /* Float */
@@ -219,4 +224,7 @@ p {
 }
 
 @media screen and (max-width: 599px) {
+  .jumbotron, #testimonials, #igFeed {
+    background-attachment: inherit;
+  }
 }
