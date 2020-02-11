@@ -36,9 +36,17 @@ p {
   margin: 0 0 20px;
 }
 
+header a.nav-link {
+  color: rgba(250, 250, 250, 0.9) !important;
+}
+
 .navWhite {
   background-color: white;
   transition: background-color 0.4s ease;
+}
+
+.navWhite a.nav-link {
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .navTransparent {
@@ -48,12 +56,8 @@ p {
 
 .jumbotron {
   color: white;
-  background: linear-gradient(
-      to bottom,
-      rgba(250, 250, 250, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(https://i.imgur.com/fwiCbl6.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+    url(../hero.jpg);
   border-radius: 0;
   height: 100vh;
   background-attachment: fixed;
@@ -67,18 +71,26 @@ p {
 }
 
 #testimonials {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../leaves.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../pattern.png);
   height: 100%;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: 20rem;
   color: white;
+}
+
+#testimonials h2,
+#testimonials h4 {
+  color: #fff;
 }
 
 .carousel-caption p {
   line-height: 1.7;
+}
+
+.fa-star {
+  color: #ffc107;
 }
 
 #services {
@@ -87,7 +99,7 @@ p {
 }
 
 #igFeed {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../salon.jpg);
   height: 100%;
   background-attachment: fixed;
@@ -115,10 +127,8 @@ p {
 }
 
 #footer h3,
-#footer h4,
-#testimonials h4,
-#testimonials h2 {
-  color: #aab445;
+#footer h4 {
+  color: #ffc107;
 }
 
 #intro a,
@@ -137,13 +147,7 @@ p {
 
 .footerLinks a:hover,
 #photoMedia a:hover {
-  color: #bbc084;
-}
-
-#footerAbout a,
-#footerAbout a:visited,
-#footerAbout a:active {
-  color: #ffc107;
+  color: #17a2b8;
 }
 
 #bottomFooter {
@@ -200,7 +204,9 @@ p {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
@@ -223,8 +229,21 @@ p {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 991px) {
+  .navTransparent {
+    background-color: white;
+    transition: background-color 0.4s ease;
+  }
+
+  .navTransparent a.nav-link {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
 @media screen and (max-width: 599px) {
-  .jumbotron, #testimonials, #igFeed {
+  .jumbotron,
+  #testimonials,
+  #igFeed {
     background-attachment: inherit;
   }
 }

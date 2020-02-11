@@ -34,7 +34,7 @@ class Navigation extends Component {
   render() {
     return (
       <header>
-        <Navbar id="navBar" collapseOnSelect expand="lg" fixed="top">
+        <Navbar id="navBar" collapseOnSelect expand="lg" fixed="top" className='navTransparent'>
           <Container>
             <Navbar.Brand href="#header">CYOBeauty</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -59,6 +59,9 @@ class Navigation extends Component {
               <Nav>
                 <Nav.Link target="_blank" href="https://squareup.com/appointments/book/e6463a96-6afc-4b72-95c1-8ad6befe5544/1BPPJP6VCHYSN/start">
                   <FontAwesomeIcon title='Schedule an appointment' icon="calendar-alt" size="2x" />
+                </Nav.Link>
+                <Nav.Link target="_blank" href='https://squareup.com/loyalty/EGGRSH7H0KN70'>
+                  <FontAwesomeIcon title='Rewards Program' icon='gift' size='2x' />
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

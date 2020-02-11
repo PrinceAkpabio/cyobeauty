@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Ssmith from "../ssmith.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
@@ -19,7 +20,7 @@ class Intro extends Component {
       >
         <Container id="intro" className="px-5 h-100">
           <Row className="mb-4">
-            <Col lg={6} md={12}>
+            <Col lg={7} md={6}>
               <h2 className="mb-3">Hi, I'm Stephanie.</h2>
               <h5 className="mb-5 font-weight-light">
                 Creator and Stylist of CYOBeauty.
@@ -27,11 +28,12 @@ class Intro extends Component {
 
               <p>
                 <span className="font-weight-bold">Founded in 2015</span>,
-                CYOBeauty is a one-woman operation, making the salon experience
-                far more special and personalized than what you'll usually find
-                elsewhere. I am passionate about hair care and color care which
-                means I use only top of the line hair products with minimal
-                ingredients, including exclusives like OLAPLEX and Biolage RAW.
+                CYOBeauty is a one-woman operation located in Plantation,
+                Florida, making the salon experience far more special and
+                personalized than what you'll usually find elsewhere. I am
+                passionate about hair care and color care which means I use only
+                top of the line hair products with minimal ingredients,
+                including exclusives like OLAPLEX and Matrix Biolage RAW.
               </p>
               <p>
                 I specalize in <strong>Balayage</strong>, a technique popular
@@ -43,20 +45,27 @@ class Intro extends Component {
                 look.
               </p>
             </Col>
-            <Col id='photoMedia' lg={5} md={9} className="align-self-center text-center">
+            <Col
+              id="photoMedia"
+              lg={5}
+              md={6}
+              sm={9}
+              className="align-self-center text-center mx-auto"
+            >
               <img
-                className="w-75"
-                src="https://i.imgur.com/7rISV7F.png"
+                className="w-75 rounded-circle"
+                src={Ssmith}
                 alt="Stephanie Smith, CYOBeauty"
               />
               <div className="my-3">
                 <a
                   href="https://www.facebook.com/cyobeauty/"
                   target="_blank"
-                  rel="noopener noreferrer" className='hvr-grow'
+                  rel="noopener noreferrer"
+                  className="hvr-grow"
                 >
                   <FontAwesomeIcon
-                    title="Facebook"
+                    title="CYOBeauty Facebook"
                     icon={faFacebookSquare}
                     className="mx-2"
                     size="2x"
@@ -65,10 +74,11 @@ class Intro extends Component {
                 <a
                   href="https://www.instagram.com/cyobeauty/"
                   target="_blank"
-                  rel="noopener noreferrer" className='hvr-grow'
+                  rel="noopener noreferrer"
+                  className="hvr-grow"
                 >
                   <FontAwesomeIcon
-                    title="Instagram"
+                    title="CYOBeauty Instagram"
                     icon={faInstagram}
                     className="mx-2"
                     size="2x"
@@ -79,9 +89,9 @@ class Intro extends Component {
           </Row>
 
           <Row>
-            <Col className="col text-center">
+            <Col className="text-center">
               <a
-                className="btn btn-warning btn-lg hvr-grow"
+                className="btn btn-info btn-lg hvr-grow p-3 text-white"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://squareup.com/appointments/book/e6463a96-6afc-4b72-95c1-8ad6befe5544/1BPPJP6VCHYSN/start"

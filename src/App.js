@@ -8,6 +8,7 @@ import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGift } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
@@ -16,7 +17,7 @@ import { faYelp } from '@fortawesome/free-brands-svg-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-library.add(faArrowCircleDown, faCalendarAlt, faMapMarkerAlt, faPhone, faEnvelope, faStar, faFacebookSquare, faInstagram, faYelp);
+library.add(faArrowCircleDown, faCalendarAlt, faMapMarkerAlt, faPhone, faGift, faEnvelope, faStar, faFacebookSquare, faInstagram, faYelp);
 
 class App extends Component {
   componentDidMount() {

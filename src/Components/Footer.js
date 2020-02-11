@@ -21,7 +21,7 @@ class Footer extends Component {
                 Located in the center of Plantation, FL, our salon offers top of
                 the line hair care products and features premier, cutting-edge
                 procedures.{" "}
-                <a href="https://squareup.com/appointments/book/e6463a96-6afc-4b72-95c1-8ad6befe5544/1BPPJP6VCHYSN/start">
+                <a className='text-info' href="https://squareup.com/appointments/book/e6463a96-6afc-4b72-95c1-8ad6befe5544/1BPPJP6VCHYSN/start">
                   Book an appointment now
                 </a>{" "}
                 and create your own beauty!
@@ -139,19 +139,19 @@ class Footer extends Component {
                   <strong className="mr-2">Mon:</strong> Closed
                 </li>
                 <li className="mb-3">
-                  <strong className="mr-2">Tue:</strong> 1:00 pm - 8:00 pm
+                  <strong className="mr-2">Tue:</strong> 1:00pm - 8:00pm
                 </li>
                 <li className="mb-3">
-                  <strong className="mr-2">Wed:</strong> 9:00 am - 6:00 pm
+                  <strong className="mr-2">Wed:</strong> 1:00pm - 8:00pm
                 </li>
                 <li className="mb-3">
                   <strong className="mr-2">Thu:</strong> Closed
                 </li>
                 <li className="mb-3">
-                  <strong className="mr-2">Fri:</strong> 9:00 am - 6:00 pm
+                  <strong className="mr-2">Fri:</strong> 9:00am - 4:00pm
                 </li>
                 <li className="mb-3">
-                  <strong className="mr-2">Sat:</strong> 9:00 am - 6:00 pm
+                  <strong className="mr-2">Sat:</strong> 9:00am - 4:00pm
                 </li>
               </ul>
             </Col>
@@ -161,7 +161,7 @@ class Footer extends Component {
           <p className="text-center mb-0 text-muted footerLinks">
             &copy; CYOBeauty 2019 by{" "}
             <a
-              href="https://madelinejones.github.io/"
+              href="https://stluciewebdesign.com/"
               target="_blank"
               rel="noopener noreferrer"
             >

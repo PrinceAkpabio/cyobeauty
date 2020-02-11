@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Header extends Component {
@@ -25,25 +27,31 @@ class Header extends Component {
     return (
       <div id="header">
         <Jumbotron className="d-flex align-items-center mb-0">
-          <Container className="text-center text-black">
+          <Container className='text-center'>
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-once="true"
               className="my-auto introSection"
             >
-              <h1 className="display-3">Be your own kind of beautiful</h1>
-              <p className="lead">
-                Full service South Florida beauty salon where you can "Create
-                Your Own Beauty"
-              </p>
+              <Row>
+                <Col className='p-0'>
+                  <h1 className='display-3 text-center'>Be your own kind of beautiful</h1>
+                  <p className='text-center'>
+                    Full service South Florida beauty salon where you can "Create
+                    Your Own Beauty"
+                  </p>
+                </Col>
+              </Row>
             </div>
+            <div className='text-center'>
             <FontAwesomeIcon
               id="scrollBtn"
               icon="arrow-circle-down"
               size="3x"
               className="downArrow animated infinite bounce slow"
             />
+            </div>
           </Container>
         </Jumbotron>
       </div>

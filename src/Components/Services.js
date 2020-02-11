@@ -54,6 +54,16 @@ class Services extends Component {
                 <Col sm={6} lg={4} className="mb-4 justify-content-center">
                   <Card className="box text-center py-4">
                     <div className="card-body">
+                      <h5 className="card-title mb-4">Root Touch-up</h5>
+                      <p className="card-text text-muted">
+                        <strong>$65</strong> &#8901; 45 minutes
+                      </p>
+                    </div>
+                  </Card>
+                </Col>
+                <Col sm={6} lg={4} className="mb-4 justify-content-center">
+                  <Card className="box text-center py-4">
+                    <div className="card-body">
                       <h5 className="card-title mb-4">Full Color</h5>
                       <p className="card-text text-muted">
                         <strong>$85</strong> &#8901; 45 minutes
@@ -84,9 +94,9 @@ class Services extends Component {
                 <Col sm={6} lg={4} className="mb-4 justify-content-center">
                   <Card className="box text-center py-4">
                     <div className="card-body">
-                      <h5 className="card-title mb-4">Full Balayge</h5>
+                      <h5 className="card-title mb-4">Full Balayage Highlights</h5>
                       <p className="card-text text-muted">
-                        <strong>$200</strong> &#8901; 2 hours
+                        <strong>$150</strong> &#8901; 2 hours
                       </p>
                     </div>
                   </Card>
@@ -94,9 +104,9 @@ class Services extends Component {
                 <Col sm={6} lg={4} className="mb-4 justify-content-center">
                   <Card className="box text-center py-4">
                     <div className="card-body">
-                      <h5 className="card-title mb-4">Balayge Ombre</h5>
+                      <h5 className="card-title mb-4">Complete Balayage Package</h5>
                       <p className="card-text text-muted">
-                        <strong>$250</strong> &#8901; 2.5 hours
+                        <strong>$350</strong> &#8901; 2.5 hours
                       </p>
                     </div>
                   </Card>
@@ -104,9 +114,9 @@ class Services extends Component {
                 <Col sm={6} lg={4} className="mb-4 justify-content-center">
                   <Card className="box text-center py-4">
                     <div className="card-body">
-                      <h5 className="card-title mb-4">Root Touch-up</h5>
+                      <h5 className="card-title mb-4">Hair Treatments</h5>
                       <p className="card-text text-muted">
-                        <strong>$65</strong> &#8901; 45 minutes
+                        <strong>$15-$35</strong> &#8901; 30 min
                       </p>
                     </div>
                   </Card>
@@ -115,7 +125,7 @@ class Services extends Component {
               <Row>
                 <Col className="col text-center">
                   <a
-                    className="btn btn-warning btn-lg hvr-grow"
+                    className="btn btn-info p-3 btn-lg hvr-grow"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://squareup.com/appointments/book/e6463a96-6afc-4b72-95c1-8ad6befe5544/1BPPJP6VCHYSN/start"
