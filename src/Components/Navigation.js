@@ -55,6 +55,9 @@ class Navigation extends Component {
                 <Nav.Link href="#igFeed" className="p-3 mx-3">
                   Portfolio
                 </Nav.Link>
+                <Nav.Link href="https://CYOBeauty.square.site/" className="p-3 mx-3">
+                  Shop
+                </Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link target="_blank" href="https://squareup.com/appointments/book/e6463a96-6afc-4b72-95c1-8ad6befe5544/1BPPJP6VCHYSN/start">
